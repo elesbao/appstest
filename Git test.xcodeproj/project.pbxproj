@@ -21,6 +21,7 @@
 		F00BE7B219F8586C00D2ABF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00BE79419F8586C00D2ABF2 /* UIKit.framework */; };
 		F00BE7BA19F8586C00D2ABF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00BE7B819F8586C00D2ABF2 /* InfoPlist.strings */; };
 		F00BE7BC19F8586C00D2ABF2 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F00BE7BB19F8586C00D2ABF2 /* Git_testTests.m */; };
+		F00BE7C719F8806700D2ABF2 /* ADTestUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F00BE7C619F8806700D2ABF2 /* ADTestUp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F00BE7B719F8586C00D2ABF2 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		F00BE7B919F8586C00D2ABF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F00BE7BB19F8586C00D2ABF2 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		F00BE7C519F8806700D2ABF2 /* ADTestUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTestUp.h; sourceTree = "<group>"; };
+		F00BE7C619F8806700D2ABF2 /* ADTestUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTestUp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				F00BE79F19F8586C00D2ABF2 /* ADAppDelegate.h */,
 				F00BE7A019F8586C00D2ABF2 /* ADAppDelegate.m */,
+				F00BE7C519F8806700D2ABF2 /* ADTestUp.h */,
+				F00BE7C619F8806700D2ABF2 /* ADTestUp.m */,
 				F00BE7A219F8586C00D2ABF2 /* Main.storyboard */,
 				F00BE7A519F8586C00D2ABF2 /* ADViewController.h */,
 				F00BE7A619F8586C00D2ABF2 /* ADViewController.m */,
@@ -253,6 +258,7 @@
 				F00BE79D19F8586C00D2ABF2 /* main.m in Sources */,
 				F00BE7A719F8586C00D2ABF2 /* ADViewController.m in Sources */,
 				F00BE7A119F8586C00D2ABF2 /* ADAppDelegate.m in Sources */,
+				F00BE7C719F8806700D2ABF2 /* ADTestUp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
